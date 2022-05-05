@@ -29,4 +29,4 @@ app.use("/api/presentations", presentationRoutes);
 app.use(notFound);
 app.use(errorHandler);
 // const PORT = ;
-app.listen(process.env.PORT || 5000, console.log(`start on ${PORT} `));
+app.listen(process.env.PORT || 5000);
